@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOD FOOD</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for white background and text color -->
+    <style>
+        body {
+            background-color: #fff; /* White background */
+            font-family: Arial, sans-serif; /* Change font family for text */
+            background-image:url(logpic.jpg);
+        }
+        /* Navigation bar styles */
+        .navbar {
+            background-color: #000; /* Black background for the navigation bar */
+        }
+        .navbar .navbar-brand {
+            color: #ffc107; /* Yellow color for the brand in the navigation bar */
+            font-size: 24px;
+            font-weight: 700; /* Bolder text */
+        }
+        .navbar .navbar-toggler-icon {
+            background-color: #fff;
+        }
+        .navbar .navbar-nav .nav-item .nav-link {
+            color: #fff;
+            font-weight: 600;
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #ffc107; /* Change color on hover to yellow */
+        }
+        /* Header style */
+        .header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            color: #fff; /* White text color */
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .header p {
+            font-size: 18px;
+        }
+        /* Restaurant logo and description style */
+        .restaurant-content {
+            display: flex;
+            align-items: center; /* Vertically center the content */
+            text-align: center;
+            margin-top: 20px; /* Add margin to separate from the header */
+        }
+        .restaurant-logo {
+            flex: 1; /* Take up half of the container's width */
+            text-align: center;
+        }
+        .restaurant-logo img {
+            width: 600px; /* Increase logo size */
+            height: 600px; /* Increase logo size */
+            border-radius: 50%; /* Make the logo round */
+        }
+        .restaurant-description {
+            flex: 1; /* Take up half of the container's width */
+            color: #fff; /* Different text color (orange) */
+            text-align: left;
+            padding: 20px;
+        }
+        .restaurant-description h2 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .restaurant-description p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">GOOD FOOD</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pratice.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="table-booking.html">Book a Table</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="event.html">Book an Event</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="regestration.html">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Header Section -->
+<div class="header">
+    <h1>GOOD FOOD</h1>
+    <p>Discover exquisite flavors and memorable experiences.</p>
+</div>
+
+<!-- Restaurant Content (Logo and Description) -->
+<div class="container restaurant-content">
+    <!-- Restaurant Logo Section -->
+    <div class="restaurant-logo">
+        <img src="food.jpg" alt="Your Restaurant Logo">
+    </div>
+
+    <!-- Restaurant Description Section -->
+    <div class="restaurant-description">
+        <b>
+        <h2>About Our Restaurant</h2>
+        <p>Food is our common ground, a universal experience."</p>
+
+        <p> "People who love to eat are always the best people."</p>
+            
+        <p> "One cannot think well, love well, sleep well, if one has not dined well"</p></b>
+    </div>
+</div>
+
+<!-- Link to Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
